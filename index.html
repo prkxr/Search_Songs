@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search Songs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Search Songs</h1>
+    <input type="text" id="searchInput" placeholder="Search for songs, artists, albums..." />
+    <button id="searchBtn">Search</button>
+  </header>
+
+  <main>
+    <div id="songs-container" class="grid"></div>
+  </main>
+
+  <footer>
+    <div id="player">
+      <img id="player-img" src="" alt="Album Art" />
+      <div id="player-info">
+        <h3 id="player-title">Select a song</h3>
+        <p id="player-artist"></p>
+      </div>
+      <audio id="audio-player" controls></audio>
+    </div>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
